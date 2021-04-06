@@ -49,46 +49,50 @@ table {
 
 /* New Content */
 
-.main-header{
+.header{
+    background-color: #c786c7;
     text-align: center;
-    background-color: palevioletred;
-    margin-bottom: 60px;
-    padding: 2%;
-}
-
-footer{
-    background-color: palevioletred;
-    text-align: center;
-    margin-top: 60px;
-    padding: 2%;
+    text-transform: uppercase;
+    padding: 20px;
 }
 
 a{
-    font-size: x-large;
+    margin-left: 17px;
+    margin-right: 17px;
+    text-decoration: none;
 }
 
 img{
-    height: 365px;
-    width: 600px;
+    width: 100%;
+    height: 30%;
 }
 
-body{
-    font-family: 'Kiwi Maru', serif;
-    text-align: center;
+.blog{
+    width: 700px;
+    margin: 0 auto;
     line-height: 1.5;
 }
 
+.time{
+    color: #454ce7;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
 h2{
-    font-size: 37px;
-    margin-bottom: 20px;
+    font-size: 32px;
+    text-transform: capitalize;
+    margin: 6px;
 }
 
-p{
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-size: 18px;
+.text{
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
-article{
-    margin-bottom: 35px;
+footer{
+    background-color: #9090e8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
 }
